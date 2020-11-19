@@ -1,0 +1,16 @@
+import React from 'react';
+
+function TarjetaCliente (props) {
+    return (
+      <div>egu
+        <ul>
+          <li>Nombre:{props.nombre}</li>
+          <li>Edad:{props.edad}</li>
+          <li>fecha de ingreso:{props.fechaIngreso}</li>
+        </ul>
+      </div>
+  )
+
+    }
+
+export default TarjetaCliente;
